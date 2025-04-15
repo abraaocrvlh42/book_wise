@@ -40,7 +40,7 @@
         <div class="flex">
           <div class="">Images</div>
           <div>
-            <a href="/books.php?" class=""font-semibold hover-underline>Title</a>
+            <a href="/books.php" class=""font-semibold hover-underline>Title</a>
             <div class="text-xs italic">Author</div>
             <div class="text-xs italic">3 (Reviews)</div>
           </div>
@@ -52,7 +52,7 @@
         <div class="flex">
           <div class="">Images</div>
           <div>
-            <a href="/books.php?" class=""font-semibold hover-underline>Title</a>
+            <a href="/books.php" class=""font-semibold hover-underline>Title</a>
             <div class="text-xs italic">Author</div>
             <div class="text-xs italic">3 (Reviews)</div>
           </div>
@@ -64,7 +64,7 @@
         <div class="flex">
           <div class="">Images</div>
           <div>
-            <a href="/books.php?" class=""font-semibold hover-underline>Title</a>
+            <a href="/books.php" class=""font-semibold hover-underline>Title</a>
             <div class="text-xs italic">Author</div>
             <div class="text-xs italic">3 (Reviews)</div>
           </div>
@@ -76,7 +76,7 @@
         <div class="flex">
           <div class="">Images</div>
           <div>
-            <a href="/books.php?" class=""font-semibold hover-underline>Title</a>
+            <a href="/books.php" class=""font-semibold hover-underline>Title</a>
             <div class="text-xs italic">Author</div>
             <div class="text-xs italic">3 (Reviews)</div>
           </div>
@@ -88,7 +88,7 @@
         <div class="flex">
           <div class="">Images</div>
           <div>
-            <a href="/books.php?" class=""font-semibold hover-underline>Title</a>
+            <a href="/books.php" class=""font-semibold hover-underline>Title</a>
             <div class="text-xs italic">Author</div>
             <div class="text-xs italic">3 (Reviews)</div>
           </div>
@@ -100,7 +100,7 @@
         <div class="flex">
           <div class="">Images</div>
           <div>
-            <a href="/books.php?" class=""font-semibold hover-underline>Title</a>
+            <a href="/books.php" class=""font-semibold hover-underline>Title</a>
             <div class="text-xs italic">Author</div>
             <div class="text-xs italic">3 (Reviews)</div>
           </div>
