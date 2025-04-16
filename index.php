@@ -1,3 +1,11 @@
+<?php
+
+  $books = [
+    ['id' => 1, 'title' => 'The Lord of the Rings', 'author' => 'J.R.R Tolkien']
+  ]
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
