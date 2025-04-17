@@ -5,7 +5,7 @@
 
     ['id' => 2, 'title' => 'Neuromancer', 'author' => 'William Gibson', 'description' => 'Case, a computer hacker enlisted into a crew by a powerful artificial intelligence and a traumatised former soldier to complete a high-stakes heist.'],
 
-    ['id' => 3, 'title' => "The Hitchhiker's Guide to the Galaxy", 'author' => 'Douglas Adams', 'description' => ''],
+    ['id' => 3, 'title' => "The Hitchhiker's Guide to the Galaxy", 'author' => 'Douglas Adams', 'description' => "The Hitchhiker's Guide to the Galaxy is a sci-fi comedy by Douglas Adams that follows Arthur Dent's bizarre adventures through space after Earth is destroyed."],
     
     ['id' => 4, 'title' => 'The Lord of the Rings', 'author' => 'J.R.R Tolkien', 'description' => 'Set in Middle-earth, the story began as a sequel to book The Hobbit but eventually developed into a much larger work.'],
     ['id' => 5, 'title' => 'The Lord of the Rings', 'author' => 'J.R.R Tolkien', 'description' => 'Set in Middle-earth, the story began as a sequel to book The Hobbit but eventually developed into a much larger work.'],
