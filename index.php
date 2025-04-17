@@ -1,7 +1,18 @@
 <?php
 
   $books = [
-    ['id' => 1, 'title' => 'The Lord of the Rings', 'author' => 'J.R.R Tolkien']
+    ['id' => 1, 'title' => 'The Lord of the Rings', 'author' => 'J.R.R Tolkien', 'description' => 'Set in Middle-earth, the story began as a sequel to book The Hobbit but eventually developed into a much larger work.'],
+
+    ['id' => 2, 'title' => 'Neuromancer', 'author' => 'William Gibson', 'description' => 'Case, a computer hacker enlisted into a crew by a powerful artificial intelligence and a traumatised former soldier to complete a high-stakes heist.'],
+
+    ['id' => 3, 'title' => "The Hitchhiker's Guide to the Galaxy", 'author' => 'Douglas Adams', 'description' => ''],
+    
+    ['id' => 4, 'title' => 'The Lord of the Rings', 'author' => 'J.R.R Tolkien', 'description' => 'Set in Middle-earth, the story began as a sequel to book The Hobbit but eventually developed into a much larger work.'],
+    ['id' => 5, 'title' => 'The Lord of the Rings', 'author' => 'J.R.R Tolkien', 'description' => 'Set in Middle-earth, the story began as a sequel to book The Hobbit but eventually developed into a much larger work.'],
+    ['id' => 6, 'title' => 'The Lord of the Rings', 'author' => 'J.R.R Tolkien', 'description' => 'Set in Middle-earth, the story began as a sequel to book The Hobbit but eventually developed into a much larger work.'],
+    ['id' => 7, 'title' => 'The Lord of the Rings', 'author' => 'J.R.R Tolkien', 'description' => 'Set in Middle-earth, the story began as a sequel to book The Hobbit but eventually developed into a much larger work.'],
+    ['id' => 8, 'title' => 'The Lord of the Rings', 'author' => 'J.R.R Tolkien', 'description' => 'Set in Middle-earth, the story began as a sequel to book The Hobbit but eventually developed into a much larger work.'],
+    ['id' => 9, 'title' => 'The Lord of the Rings', 'author' => 'J.R.R Tolkien', 'description' => 'Set in Middle-earth, the story began as a sequel to book The Hobbit but eventually developed into a much larger work.']
   ]
 
 ?>
@@ -44,17 +55,22 @@
 
     <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex gap-4">
       <!-- Books -->
+      <?php foreach($books as $book): ?>
+
       <div class=" p-2 border-2 rounded border-stone-800 bg-stone-900">
         <div class="flex">
-          <div class="">Images</div>
+          <div class="w-1/3">Images</div>
           <div>
-            <a href="/books.php" class=""font-semibold hover-underline>Title</a>
-            <div class="text-xs italic">Author</div>
+            <a href="/books.php?id=<?=$book['id']?>" class=""font-semibold hover-underline><?=$book['title']?></a>
+            <div class="text-xs italic"><?=$book['author']?></div>
             <div class="text-xs italic">3 (Reviews)</div>
           </div>
         </div>
-          <div>Description</div>
+          <div class="text-sm">
+          <?=$book['description']?>
+          </div>
       </div>
+      <?php endforeach; ?>
 
       <div class=" p-2 border-2 rounded border-stone-800 bg-stone-900">
         <div class="flex">
