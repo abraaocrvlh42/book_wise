@@ -1,3 +1,7 @@
+<?php
+  require 'data.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
