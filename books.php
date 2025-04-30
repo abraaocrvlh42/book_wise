@@ -38,9 +38,9 @@
     </nav>
   </header>
 
-  <main class="mx-auto max-w-screen-lg space-y-5">
+  <main class="mx-auto max-w-screen-lg space-y-6">
     ID do Livro é: <?= $books['title'] ?>
-    <div class=" p-2 border-2 rounded border-stone-800 bg-stone-900">
+    <div class=" p-2 rounded border-stone-800 border-2 bg-stone-900">
       <div class="flex">
         <div class="w-1/3">Images</div>
         
@@ -50,9 +50,9 @@
           <div class="text-xs italic">3 (Reviews)</div>
         </div>
       </div>
-        <div class="text-sm">
-          <?= $book['description']?>
-        </div>
+      <div class="text-sm mt-2">
+        <?=$book['description']?>
+      </div>
     </div>
   </main>
 
