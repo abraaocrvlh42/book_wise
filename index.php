@@ -8,16 +8,16 @@
 </head>
 
 <body class="bg-stone-950 text-stone-100">
-  <header>
-    <nav class="flex">
-      <div>Book Wise</div>
-      <ul class="flex">
-        <li><a href="/">Explore</li>
-        <li><a href="/MyBooks">My Books</li>
+  <header class="bg-stone-800">
+    <nav class="mx-auto max-w-screen-lg flex justify-between px-8 py-4">
+      <div class="font-bold text-xl tracking-wide">Book Wise</div>
+      <ul class="flex space-x-5 font-bold">
+        <li><a href="/" class="text-purple-400">Explore</a></li>
+        <li><a href="/MyBooks.php" class="hover:underline">My Books</a></li>
       </ul>
 
       <ul>
-        <li><a href="/Login">Login</li>
+        <li><a href="/Login.php" class="hover:underline">Login</a></li>
       </ul>
     </nav>
   </header>
