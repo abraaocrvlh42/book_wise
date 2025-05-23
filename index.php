@@ -7,11 +7,11 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
+<body class="bg-stone-950 text-stone-100">
   <header>
-    <nav>
+    <nav class="flex">
       <div>Book Wise</div>
-      <ul>
+      <ul class="flex">
         <li><a href="/">Explore</li>
         <li><a href="/MyBooks">My Books</li>
       </ul>
@@ -19,7 +19,6 @@
       <ul>
         <li><a href="/Login">Login</li>
       </ul>
-      
     </nav>
   </header>
 
